@@ -205,17 +205,17 @@ enum ZoomUserType
 */
 typedef struct tagStartParam4WithoutLogin
 {
-	const wchar_t* userID;///<User ID.
-	const wchar_t* userZAK;///<ZOOM access token.
-	const wchar_t* userName;///<Username when logged in the meeting.
-	ZoomUserType   zoomuserType;///<User type.
-	UINT64		   meetingNumber;///<Meeting number.
-	const wchar_t* vanityID;///< Meeting vanity ID
-	HWND		   hDirectShareAppWnd;///<The window handle of the direct sharing application.
-	const wchar_t* customer_key;///<The customer key that need the app intergrated with sdk to specify. The SDK will set this value when the associated settings are turned on.
+	const wchar_t* userID;				///<User ID.
+	const wchar_t* userZAK;				///<ZOOM access token.
+	const wchar_t* userName;			///<Username when logged in the meeting.
+	ZoomUserType   zoomuserType;		///<User type.
+	UINT64		   meetingNumber;		///<Meeting number.
+	const wchar_t* vanityID;			///< Meeting vanity ID
+	HWND		   hDirectShareAppWnd;	///<The window handle of the direct sharing application.
+	const wchar_t* customer_key;		///<The customer key that need the app intergrated with sdk to specify. The SDK will set this value when the associated settings are turned on.
 	bool		   isDirectShareDesktop;///<Share the desktop directly or not. True indicates to share.
-	bool		   isVideoOff;///<Turn off the video or not. True indicates to turn off. In addition, this flag is affected by meeting attributes.
-	bool		   isAudioOff;///<Turn off the audio or not. True indicates to turn off. In addition, this flag is affected by meeting attributes.
+	bool		   isVideoOff;			///<Turn off the video or not. True indicates to turn off. In addition, this flag is affected by meeting attributes.
+	bool		   isAudioOff;			///<Turn off the audio or not. True indicates to turn off. In addition, this flag is affected by meeting attributes.
 }StartParam4WithoutLogin;
 
 /*! \struct tagStartParam4NormalUser

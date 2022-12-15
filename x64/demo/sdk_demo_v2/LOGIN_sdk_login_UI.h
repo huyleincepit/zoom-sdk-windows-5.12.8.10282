@@ -44,7 +44,11 @@ public:
 	CSDKLoginCBHandler();
 	virtual ~CSDKLoginCBHandler();
 	void SetUIEvent(CSDKLoginUIMgr* main_frame_);
-	virtual void onAuthenticationReturn(ZOOM_SDK_NAMESPACE::AuthResult ret) {};
+	virtual void onAuthenticationReturn(ZOOM_SDK_NAMESPACE::AuthResult ret) {
+		if (true) {
+
+		}
+	}
 	virtual void onLoginReturnWithReason(ZOOM_SDK_NAMESPACE::LOGINSTATUS ret, ZOOM_SDK_NAMESPACE::IAccountInfo* pAccountInfo, ZOOM_SDK_NAMESPACE::LoginFailReason reason);
 	virtual void onLogout();
 	virtual void onZoomIdentityExpired();

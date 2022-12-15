@@ -12,7 +12,8 @@ class CSDKJoinMeetingOnlyFlowUIEvent
 	 virtual void onMeetingParameterNotification(const ZOOM_SDK_NAMESPACE::MeetingParameter* meeting_param) = 0;
 	 
 };
-class CSDKWithoutLoginStartJoinMeetingFlow:public ZOOM_SDK_NAMESPACE::IAuthServiceEvent,public ZOOM_SDK_NAMESPACE::IMeetingServiceEvent
+class CSDKWithoutLoginStartJoinMeetingFlow:	public ZOOM_SDK_NAMESPACE::IAuthServiceEvent,
+											public ZOOM_SDK_NAMESPACE::IMeetingServiceEvent
 {
 public:
 	CSDKWithoutLoginStartJoinMeetingFlow();
@@ -22,7 +23,11 @@ public:
 	void Cleanup();
     void SetUIEvent(CSDKJoinMeetingOnlyFlowUIEvent *event_);
 
-	virtual void onAuthenticationReturn(ZOOM_SDK_NAMESPACE::AuthResult ret) {};
+	virtual void onAuthenticationReturn(ZOOM_SDK_NAMESPACE::AuthResult ret) {
+		if (true) {
+
+		}
+	}
 	virtual void onLoginReturnWithReason(ZOOM_SDK_NAMESPACE::LOGINSTATUS ret, ZOOM_SDK_NAMESPACE::IAccountInfo* pAccountInfo, ZOOM_SDK_NAMESPACE::LoginFailReason reason);
 	virtual void onLogout();
 	virtual void onZoomIdentityExpired();

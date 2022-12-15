@@ -38,25 +38,25 @@ void CSDKLoggedInUIMgr::InitWindow()
 	::SetWindowPos(m_hWnd, NULL, (ScreenX - (rc.right - rc.left)) / 2, 
 		(ScreenY - (rc.bottom - rc.top)) / 2, rc.right - rc.left, rc.bottom - rc.top, SWP_NOZORDER | SWP_SHOWWINDOW);
 
-	m_pageBackToMeeting_Video = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_returnToMeeting_Video")));
-	m_pageBackToMeeting_Audio = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_returnToMeeting_Audio")));
-	m_pageBackToMeeting_JoinOnly = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_returnToMeeting_JoinOnly")));
-	m_pageStopDirectShare = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_directShare_stop")));
-	m_pageStartVideoMeeting = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_startVideoMeeting")));
-	m_pageStartAudioOnlyMeeting = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_startAudioOnlyMeeting")));
-	m_pageJoinMeeting = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_joinMeetingOnly")));
-	m_pageStartDirectShare = static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_directShare_start")));
+	m_pageBackToMeeting_Video		= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_returnToMeeting_Video")));
+	m_pageBackToMeeting_Audio		= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_returnToMeeting_Audio")));
+	m_pageBackToMeeting_JoinOnly	= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_returnToMeeting_JoinOnly")));
+	m_pageStopDirectShare			= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_directShare_stop")));
+	m_pageStartVideoMeeting			= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_startVideoMeeting")));
+	m_pageStartAudioOnlyMeeting		= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_startAudioOnlyMeeting")));
+	m_pageJoinMeeting				= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_joinMeetingOnly")));
+	m_pageStartDirectShare			= static_cast<CVerticalLayoutUI* >(m_PaintManager.FindControl(_T("container_directShare_start")));
 	
-	m_btnStartVideoMeeting = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_startVideoMeeting")));
-	m_btnStartAudioOnlyMeeting = static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_startAudioOnlyMeeting")));
-	m_btnJoinMeeting = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_joinMeeting")));
-	m_btnConfigure = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_settingMeeting")));
-	m_btnStartDirectShare = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_direct_share_start")));
-	m_btnLogout = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_logout")));
-	m_btnBackToMeeting_Video = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_returnToMeeting_Video")));
-	m_btnBackToMeeting_Audio = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_returnToMeeting_Audio")));
-	m_btnBackToMeeting_JoinOnly = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_returnToMeeting_JoinOnly")));
-	m_btnStopDirectShare = static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_direct_share_stop")));
+	m_btnStartVideoMeeting			= static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_startVideoMeeting")));
+	m_btnStartAudioOnlyMeeting		= static_cast<CButtonUI* >(m_PaintManager.FindControl(_T("btn_startAudioOnlyMeeting")));
+	m_btnJoinMeeting				= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_joinMeeting")));
+	m_btnConfigure					= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_settingMeeting")));
+	m_btnStartDirectShare			= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_direct_share_start")));
+	m_btnLogout						= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_logout")));
+	m_btnBackToMeeting_Video		= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_returnToMeeting_Video")));
+	m_btnBackToMeeting_Audio		= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_returnToMeeting_Audio")));
+	m_btnBackToMeeting_JoinOnly		= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_returnToMeeting_JoinOnly")));
+	m_btnStopDirectShare			= static_cast<CButtonUI*>(m_PaintManager.FindControl(_T("btn_direct_share_stop")));
 
 	if(m_pageStopDirectShare)
 		m_pageStopDirectShare->SetVisible(false);

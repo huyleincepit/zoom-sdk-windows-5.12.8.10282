@@ -1,0 +1,788 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CSDKDemoApp" Collapsed="true">
+    <Position X="6.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFECAAECAIAAACQAAAAAIAAAEAEBAAAAIqIkMkAAIBI=</HashCode>
+      <FileName>sdk_demo_app.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKDemoAppEvent" Collapsed="true">
+    <Position X="6.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAACAIAAACQAAAAAIAAAEAEAAAAAAiAgEAAAABI=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EventSinkPool&lt;T&gt;" Collapsed="true">
+    <Position X="17.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAABAAAAAAAAAAAAAAIAICAAAAAAAAAQA=</HashCode>
+      <FileName>sdk_util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISDKInMeetingServiceMgrEvent" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>sdk_util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SDKInterfaceWrap" Collapsed="true">
+    <Position X="12" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HA2QmyLBsAEKlLiHJOSRJqiIXIoGQBnWFEOjQ0DDhr4=</HashCode>
+      <FileName>sdk_util.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInitSDKWorkFlowUIEvent" Collapsed="true">
+    <Position X="9.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>init_auth_sdk_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInitSDKWorkFlow" Collapsed="true">
+    <Position X="22.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAgAAAAAICAAAAAAAAEIAEAAAAgAgAAAAAAAAAA=</HashCode>
+      <FileName>init_auth_sdk_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAuthSDKWorkFlowUIEvent" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>init_auth_sdk_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAuthSDKWorkFlow" Collapsed="true">
+    <Position X="26" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAAAAAAAFAAIJAAAAAAAAIAAAAEAAAAAAFAAAAA=</HashCode>
+      <FileName>init_auth_sdk_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInitSDKUIGroup" Collapsed="true">
+    <Position X="9.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ECAAAAAABAIAAAAAEEAAAAIAAAQEAARgAAAAAAgEBAA=</HashCode>
+      <FileName>sdk_init_auth_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CAuthSDKUIGroup" Collapsed="true">
+    <Position X="9.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QECAAAAAAAIAAACAEEAAAAIAgAAEAABAAAAAAIAEEAA=</HashCode>
+      <FileName>sdk_init_auth_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKInitAuthUIMgr" Collapsed="true">
+    <Position X="19" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggABEABAgAIAAAPAACIAAAAAABAAAgBAACLgQAAAACA=</HashCode>
+      <FileName>sdk_init_auth_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoginWithSSOUIGroup" Collapsed="true">
+    <Position X="15.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAIAAEIAAAAAkAAAABIAQAAGIABAIAAAAAABAAA=</HashCode>
+      <FileName>LOGIN_sdk_login_UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoginCBHandler" Collapsed="true">
+    <Position X="26" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAIAIQAAAAFAAAQAAAAAAAAIAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>LOGIN_sdk_login_UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKWithoutLoginStartJoinMeetingUIGroup" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAAABIAAAIAAAAAEAAQAQIAAAAMSBBCBAAAAFAAAAA=</HashCode>
+      <FileName>LOGIN_sdk_login_UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKRestAPIUserUIGroup" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAIAAAIBAAAAEEAQAQIAAEAESBRABAAQAEBIBAA=</HashCode>
+      <FileName>LOGIN_sdk_login_UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoginUIMgr" Collapsed="true">
+    <Position X="12" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggABAABAgAIIEEPAAyCAAAAgIBIQIgBAEAbAQEAQICA=</HashCode>
+      <FileName>LOGIN_sdk_login_UI.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoginWithSSOFlow" Collapsed="true">
+    <Position X="13.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIIAAIgAAAAAAAAAAAAAAAAAQAEQAAAA=</HashCode>
+      <FileName>LOGIN_login_with_sso_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKGeneralSettingsUIGroup" Collapsed="true">
+    <Position X="15.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgABYIAkAMgEQAAFCAgAAIAAAgEAABAAMAAgAACAAA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKAudioSettingsUIGroup" Collapsed="true">
+    <Position X="3.5" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hAAUTBogigIhEBEMOAGN4IIkNIqEAJRJIkBIAAIpGBA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVideoSettingsUIGroup" Collapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEQEhAMABbJFEECMEACARwaAAAgGABXAAzgAAAiCALA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKShareSettingsUIGroup" Collapsed="true">
+    <Position X="26" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAoAAAIAQDIAGEIAEAoAABMAEgQEBNRBIAAAAAACCAA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVBGImageList" Collapsed="true">
+    <Position X="19" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAEAAAAAEBAAAAAIAAAgAAgABAEAABAAAAAAAE=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVirtualBGSettingsUIGroup" Collapsed="true">
+    <Position X="9.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAQAIAAoKAFQAAEAAgIAYMCBBEASFARAAQCABMAEA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKRecordingSettingsUIGroup" Collapsed="true">
+    <Position X="19" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QQCgAAIJAEICECIAEBQCAAYMggAEAABAQgCUgAAEAQA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKUICustomSettingsUIGroup" Collapsed="true">
+    <Position X="13.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>HQMWCKvmIEKBdakBMQBAoCJAAOM3igTAAW8UAV4AwAQ=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKFeatureCustomSettingsUIGroup" Collapsed="true">
+    <Position X="12" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgwVxFsygAIk35IoGlyZAVJEAAgtAEVYAECCBlhAQRA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKSettingsUIMgr" Collapsed="true">
+    <Position X="24.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhIBhiJCgQMAAANAACAAgIAAQhAhAgBAgBKAwgGQAAA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKGeneralSettingsWorkFlow" Collapsed="true">
+    <Position X="17.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEEAICBAAAgAAAAgAFAAAAAAAACAAAUAAQACAEAAEAM=</HashCode>
+      <FileName>SETTINGS_general_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKAudioSettingsUIEvent" Collapsed="true">
+    <Position X="3.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAgAAAAAAAAAAAGAIIAAAAIAAAAAAAAAAAAAABA=</HashCode>
+      <FileName>SETTINGS_audio_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKAudioSettingsWorkFlow" Collapsed="true">
+    <Position X="24.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FEAEIJCAgGAyAKMCBhGAIYEIgAIAAAiogEACAECIBAI=</HashCode>
+      <FileName>SETTINGS_audio_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVideoSettingsUIEvent" Collapsed="true">
+    <Position X="9.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAACAAAAAAAAAAAAAAACAAAAAAAACABA=</HashCode>
+      <FileName>SETTINGS_video_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVideoSettingsWorkFlow" Collapsed="true">
+    <Position X="20.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FIQgIRMAIaAggAGAgQDEQEBAACAAAAKABAECAEAKIRQ=</HashCode>
+      <FileName>SETTINGS_video_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKRecordingSettingsWorkFlow" Collapsed="true">
+    <Position X="20.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIEAAAQIAAkAAAAAAJAAAAAAiQgAAACAjAEBAACI=</HashCode>
+      <FileName>SETTINGS_recording_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKUICustomSettingsWorkFlow" Collapsed="true">
+    <Position X="15.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEgAAACAAFqcgAYAAAQEA4AbBAAAAAEKBAACCEAAICg=</HashCode>
+      <FileName>SETTINGS_ui_custom_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKFeatureCustomSettingsWorkFlow" Collapsed="true">
+    <Position X="13.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gQAggAhAACQSIBIIEAQAQIkIAAAAQAAACgIKQmEAAKg=</HashCode>
+      <FileName>SETTINGS_feature_custom_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVirtualBGUIEvent" Collapsed="true">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAEAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>SETTINGS_virtualBG_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKVirtualBGSettingsWorkFlow" Collapsed="true">
+    <Position X="22.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EABAACAEIIAAAAGABAAJBAAAAAAAgANAAAAGAAAKABY=</HashCode>
+      <FileName>SETTINGS_virtualBG_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKShareSettingsWorkFlow" Collapsed="true">
+    <Position X="12" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sEAAAEgAAGBAAAAABQSQIIAAIAAAIAAAIKACAEkBAUI=</HashCode>
+      <FileName>SETTINGS_share_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKMessInfo" Collapsed="true">
+    <Position X="17.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAIABAAAAAAAAAQAAQAABAAAAgQAAAAKAACAEAAAAA=</HashCode>
+      <FileName>mess_info.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKJoinMeetingForLoginUserUIGroup" Collapsed="true">
+    <Position X="20.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAJhAAIAAAAAEAAQAQIAAAAESBBABAAAABAAAAA=</HashCode>
+      <FileName>Join_meeting_for_login_user_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKJoinMeetingForLoginUserUIMgr" Collapsed="true">
+    <Position X="22.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggABAABAgAIAAAJAAAAAAAAAABAAAgBgAILAQAAAAAA=</HashCode>
+      <FileName>Join_meeting_for_login_user_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoggedInUIMgr" Collapsed="true">
+    <Position X="0.5" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>wgkJEEFAgEKQEANCACCQDUQggFCQyhDAhALAUwQAAEA=</HashCode>
+      <FileName>LoggedIn_sdk_controller_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoggedInFlowUIEvent" Collapsed="true">
+    <Position X="0.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAQBAABAAAAAAAAAA=</HashCode>
+      <FileName>LoggedIn_sdk_controller_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKLoggedInUIWorkFlow" Collapsed="true">
+    <Position X="24.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ARAA4AAAAACQAAAAAAAAAAAIAAAAQBYABAAAQggAAAI=</HashCode>
+      <FileName>LoggedIn_sdk_controller_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKJoinMeetingOnlyFlowUIEvent" Collapsed="true">
+    <Position X="6.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAABAAAAAAAAAA=</HashCode>
+      <FileName>LOGIN_join_meeting_only_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKWithoutLoginStartJoinMeetingFlow" Collapsed="true">
+    <Position X="24.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEEIAAAAAAQFQAAIAAAAAAIQIAAQBEABAAAAEAACAA=</HashCode>
+      <FileName>LOGIN_join_meeting_only_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKRestAPIUserUIEvent" Collapsed="true">
+    <Position X="6.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAQBAABAAAAAAAAAA=</HashCode>
+      <FileName>LOGIN_restapi_without_login_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKRestAPIUserWorkFlow" Collapsed="true">
+    <Position X="22.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAJAAAQAAAAAAAAAACIAAEAQBAABAAAAUAAAAA=</HashCode>
+      <FileName>LOGIN_restapi_without_login_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKMeetingChatUIMgr" Collapsed="true">
+    <Position X="3.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoABEABAggJQBAIBAAQAAAEIBBAQEAlAAIKAQAAAAIA=</HashCode>
+      <FileName>chat_controller_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IMeetingChatCtrlEventWrap" Collapsed="true">
+    <Position X="3.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>chat_controller_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKChatControllerWorkFlow" Collapsed="true">
+    <Position X="26" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAABAAAAAAAAAAABRAAACACABABACAgEAAAAAABAAAI=</HashCode>
+      <FileName>chat_controller_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CArrowWindow" Collapsed="true">
+    <Position X="24.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAABAoQNAAAIAgAAAAACEABAMAGBAAECIQAQAAAA=</HashCode>
+      <FileName>arrow_window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolbarBottom" Collapsed="true">
+    <Position X="6.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AxhAgATBrAJABAcAAAAACACkABAAACFgQECAQHRgQCE=</HashCode>
+      <FileName>toolbar_bottom_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolbarBottomWorkFlowUIEvent" Collapsed="true">
+    <Position X="6.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>toolbar_bottom_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolbarBottomWorkFlow" Collapsed="true">
+    <Position X="26" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAIAAAgEAQAAAAAAAAAAIKAgAAAACAAAAAAAAQAAA=</HashCode>
+      <FileName>toolbar_bottom_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CToolbarMgr" Collapsed="true">
+    <Position X="12" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>iQAAgARIAAAQAEAJAAAEDACoBAAQAAAggADCASJAAAA=</HashCode>
+      <FileName>toolbar_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ParticipantPopMenu" Collapsed="true">
+    <Position X="26" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAAAAAAAAQAAAAACAAgAAAAFAACAAAA=</HashCode>
+      <FileName>ParticipantPopMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CPUserItemEx" Collapsed="true">
+    <Position X="22.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIBEAAQgAMgEQAAAABAAAAIAAiAAGgQAIAgQBBEAAQ=</HashCode>
+      <FileName>participant_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CParticipantUIMgr" Collapsed="true">
+    <Position X="20.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAgAABAoAJQQAKAAAQkAACAABEEAChAAMCBQAQAAAA=</HashCode>
+      <FileName>participant_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKUserList" Collapsed="true">
+    <Position X="17.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAAAAAAAAEBAAACgAgAAgAAAAAAAAIAAwAAAAAA=</HashCode>
+      <FileName>user_manager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoreMenuUIMgr" Collapsed="true">
+    <Position X="19" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAAgABEgAoBEQIAIMADEgAgABgjgABAAAiAxAAA4AA=</HashCode>
+      <FileName>more_menu_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInvitationUIMgr" Collapsed="true">
+    <Position X="24.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhAAgABAgAMAAAIAAAABAAAAABAABABAACCAQAASAAA=</HashCode>
+      <FileName>invitation_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CInvitationWorkflow" Collapsed="true">
+    <Position X="26" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAAAAAAAAAAABAAAAgAAAAAICACAAAAAAA=</HashCode>
+      <FileName>invitation_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCloseCaptionUIMgr" Collapsed="true">
+    <Position X="3.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAARKgA6AASIDAAAAAQEAADgwgIDgQAGKQAQAAgA=</HashCode>
+      <FileName>close_caption_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IClosedCaptionWorkflowEvent" Collapsed="true">
+    <Position X="3.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAABAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>close_caption_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCloseCaptionWorkflow" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gACAEAAQCEIIAAAFACQgAAAAAAAQAACAAEAiAAIgBAg=</HashCode>
+      <FileName>close_caption_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ClosedCaptionDisplayUI" Collapsed="true">
+    <Position X="13.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAQAAAgAAAAAAAABAIAADAABCCAAAAABA=</HashCode>
+      <FileName>display_cc_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoreFeaturesUIMgr" Collapsed="true">
+    <Position X="15.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgBQgBBAoANBADIQBETAAAAQABAGgABkAAiA4gQAwAg=</HashCode>
+      <FileName>more_features_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CMoreFeaturesWorkflow" Collapsed="true">
+    <Position X="17.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABABBQECAgAAAAAAAACBAIEAAAAAABggAQBIAEQAAA=</HashCode>
+      <FileName>more_features_workflow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CUtilWnd" Collapsed="true">
+    <Position X="15.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>koIBIgLAAAYAgIIEKAAIBCAAABAAkABYAACAAJwAoAA=</HashCode>
+      <FileName>util_window.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CameraControlWindow" Collapsed="true">
+    <Position X="22.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAhAghAggJAAAJAAAAAAAAAGVAAAABAAAKAQAEAAAA=</HashCode>
+      <FileName>CameraControlWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnotateBarWindow" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEBBRRBiAKIAAKIAQSQAARAABCKAIBABEuAQEAQgBA=</HashCode>
+      <FileName>AnnotateBarWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnotateClearWindow" Collapsed="true">
+    <Position X="13.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AhABCARBgAIAAAYAAAAAAAAAABEAAABAAAKAQAAQAAA=</HashCode>
+      <FileName>AnnotateClearWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnotateDrawWindow" Collapsed="true">
+    <Position X="15.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgEBAAFBgAIAAAKAAFAAAAAACBAAEANAAAKBQBCQAAE=</HashCode>
+      <FileName>AnnotateDrawWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnotateFormatWindow" Collapsed="true">
+    <Position X="17.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ggABAABRgAIAAgIAAgEAAgAgAFhAAIDAgGKFQAAQgCA=</HashCode>
+      <FileName>AnnotateFormatWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnotateSpolightWindow" Collapsed="true">
+    <Position X="19" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABMABBgAIAAAIAAAAAAAAAABAAAAFAAAKAQAAQgAA=</HashCode>
+      <FileName>AnnotateSpolightWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnnotateStampWindow" Collapsed="true">
+    <Position X="20.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAFBwAIAAAIAAAAAAAAMEBAAAAJAAAKAQAAQgAA=</HashCode>
+      <FileName>AnnotateStampWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShareToolbarWindow" Collapsed="true">
+    <Position X="13.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAABCggJgAAIAIAAQAEIAARAACABAAAKAQAAEgAA=</HashCode>
+      <FileName>ShareToolbarWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ViewOptionsWindow" Collapsed="true">
+    <Position X="15.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAABAggIgAAIAAQBAAQBAABAAAABAAAKAQAA0ABg=</HashCode>
+      <FileName>ViewOptionsWindow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IUIVideoContanier" Collapsed="true">
+    <Position X="20.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>custom_ui_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IUIShareRender" Collapsed="true">
+    <Position X="19" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>custom_ui_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ICutomizedUIOwnWndInterface" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwDAAAAAAAAAAAABAAAAAAECAAAAABQAAAAAAAAEAAA=</HashCode>
+      <FileName>custom_ui_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IWrapCustomizedVideoContainerEvent" Collapsed="true">
+    <Position X="24.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAIAAAAEAAAAQAAAAAAAAAAAACAAAEAAAAAAAAAAA=</HashCode>
+      <FileName>custom_ui_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="IWrapCustomizedShareRenderEvent" Collapsed="true">
+    <Position X="22.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIgQAAAAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>custom_ui_base.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeInMeetingUIMgr" Collapsed="true">
+    <Position X="1.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ulHMKAAR9/GEtpQJCgAB18Y4hQAHSBqO4KDKEYQHoCA=</HashCode>
+      <FileName>custom_ui_mgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ISDKInMeetingServiceCustomUIEvent" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IACACAAAgAEAABAAAAABBgAABAAEQAAAQAAAAAAAAAA=</HashCode>
+      <FileName>custom_ui_mgr_flow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CSDKCustomUIWorkFlow" Collapsed="true">
+    <Position X="0.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>dACAGgKwsAM4UPCHJMWFJqCIVMIETTiEREAyQzpKRL8=</HashCode>
+      <FileName>custom_ui_mgr_flow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeUIVideoFlow" Collapsed="true">
+    <Position X="19" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCAAAAAAAAAABAiISEAAggAIAAAMAEAAAAAAAAAAAgA=</HashCode>
+      <FileName>custom_ui_video_flow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeUIVideoMgr" Collapsed="true">
+    <Position X="20.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gCIABgQAAgEQBAiACQCKiAGoAAgdQAIggADoAACIggA=</HashCode>
+      <FileName>custom_ui_video_mgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeUIShareFlow" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAABAAAAQBgAAEQAAAAAIACCMARgAARgAAAGAAAA=</HashCode>
+      <FileName>custom_ui_share_flow.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeUIShareRenderUI" Collapsed="true">
+    <Position X="4" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAABAKAIAABAAAQAAAAAYAAAAAAAAAAAAAMQAA=</HashCode>
+      <FileName>custom_ui_share_mgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeUIShareSelectUI" Collapsed="true">
+    <Position X="17.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QgAAQEJAhgJIAAIAAAAACIGAQBAAAAFAAASAQAAAIAA=</HashCode>
+      <FileName>custom_ui_share_mgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CCustomizeUIShareMgr" Collapsed="true">
+    <Position X="15.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>qDAgoAIBAyGQAgCIQACRAAACACAMACABAKACgJAIgAA=</HashCode>
+      <FileName>custom_ui_share_mgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CustomizedUIRecordMgr" Collapsed="true">
+    <Position X="13.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABECQgAQgCAAAAgABJAgIAAARAAAAEAAAACAgAAAACA=</HashCode>
+      <FileName>CustomizedUIRecordMgr.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CJoinWebinarWndUI" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgAAAABAAAIAAAEAAAAEAEAABTAgAABAAgCAUAIABAA=</HashCode>
+      <FileName>join_webinar_wnd_ui.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="GalleryViewSubscribeType" Collapsed="true">
+    <Position X="20.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAABAAAAAAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ArrowButtonType" Collapsed="true">
+    <Position X="12" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ToolbarButtonType" Collapsed="true">
+    <Position X="22.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAACAAAAAIAAAAAAABAQBAAAAAIAABAAAAEAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="buttonStatusType" Collapsed="true">
+    <Position X="15.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAEAAAACAAAAAEAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="LoggedIn_MeetingUI_type" Collapsed="true">
+    <Position X="22.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAEAAAAAAAAAAAAAAAEAABAAAAAAAAQAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SettingsUI_page" Collapsed="true">
+    <Position X="17.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAIAABAAAAAAEAAAAAEAAAAABBgAAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SwitchToLoginUIType" Collapsed="true">
+    <Position X="20.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAAAACAAAAAAAAAAAAAAAAgAAAAAAgAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SDKShareType" Collapsed="true">
+    <Position X="26" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAAAAAAAAAEAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="bkItemType" Collapsed="true">
+    <Position X="13.75" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>sdk_demo_app_common.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="loginTabPage" Collapsed="true">
+    <Position X="24.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAgIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LOGIN_sdk_login_UI.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="settingsAudioTestingType" Collapsed="true">
+    <Position X="13.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAhAAABAAAAgAAAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SettingsUICustom_page" Collapsed="true">
+    <Position X="19" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAAAAAABAgCAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SettingsFeatureCustom_page" Collapsed="true">
+    <Position X="15.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAQAAEAAAAAAAAAEAE=</HashCode>
+      <FileName>settings_ui.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="demoMeetingType" Collapsed="true">
+    <Position X="17.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAwAAAAAAAAAAEAAAIAAAAAAAAAAAAggAAAAAAAA=</HashCode>
+      <FileName>LoggedIn_sdk_controller_ui.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="SDKUserChangedType" Collapsed="true">
+    <Position X="12" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAAAAAAAAAAIAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>participant_ui.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="FEATURE_TYPE" Collapsed="true">
+    <Position X="19" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABBQAiAgAAAAAAAAABAIEAAAAAAgggAQAAAAAAAA=</HashCode>
+      <FileName>util_window.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
